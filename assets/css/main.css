@@ -447,6 +447,269 @@ body {
 
 
 
+
+
+@media (min-width: 300px) and (max-width: 399px) {
+
+    /* NAV-MOBILE-SECTION */
+    .links-container-nav {
+        display: none;
+    }
+
+    .contact-us-button-nav {
+        display: none;
+    }
+
+    .menu-bars-mobile {
+        height: 40px;
+        display: inline-block;
+        cursor: pointer;
+        position: absolute;
+        right: 30px;
+    }
+
+    .exit-icon-mobile  {
+        height: 40px;
+        display: inline-block;
+        cursor: pointer;
+        position: absolute;
+        right: 30px;
+        display: none;
+    }
+
+    .nav-container {
+        position: relative;
+        justify-content: space-between;
+        width: 100%;  
+    }
+
+
+    /* HERO-SECTION */
+
+    .hero-container {
+        flex-direction: column;
+        padding: 0px 30px;
+        position: relative;
+        background-image: url(../images/hero/yellow-flower-back-hero.png);
+        background-size: 300px;
+        background-repeat: no-repeat;
+        background-position-x: -100px;
+        height: 1200px;
+    }
+
+    .left-container-text-hero {
+        width: 100%;
+    }
+
+    .first-text-hero-left {
+        line-height: 60px;
+        font-size: 3rem;
+        margin-top: 0px;
+    }
+
+    .second-text-hero-left {
+        font-size: 1.5rem;
+    }
+
+    .right-container-image-hero {
+        align-self: center;
+        position: relative;
+        top: 100px;
+        width: 100%;
+    }
+
+    .button-comenzar {
+        position: relative;
+        top: 15px;
+    }
+
+    .links-container-mobile-appear {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        width: 70%;
+        background-color: var(--pink);
+        right: 0;
+        transition: display 0.5s ease;
+    }
+
+    .hide {
+        display: 'none';
+    }
+
+    .opacity-click {
+        opacity: 0.5;
+    }
+
+    .link-nav-itself-mobile {
+        display: inline-block;
+        width: 100%;
+        color: var(--white);
+        text-decoration: none;
+        border-bottom: 3px solid var(--white);
+        font-size: 2rem;
+        text-align: center;
+        margin: 20px;
+        padding-bottom: 20px;
+    }
+
+    .link-nav-itself-mobile:first-child {
+        padding-top: 20px;
+    }
+
+    .button-comenzar {
+        background-color: var(--pink);
+    }
+
+
+    /* NOSOTROS-SECTION */
+
+    .nosotros-container {
+        flex-direction: column-reverse;
+        height: 1300px;
+        background-image: url(../images/nosotros/pink-roses.png);
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position-x: 110px;
+        background-position-y: -100px;
+        padding: 30px 10px;   
+    }
+
+    .right-nosotros-container {
+        width: 100%;
+    }
+
+    .h1-text-nosotros {
+        position: relative;
+        bottom: 30px;
+    }
+
+    .h2-text-nosotros {
+        font-size: 2.5rem;
+    }
+
+    .left-nosotros-container-img {
+        width: 100%;
+    }
+
+    .client-image {
+        height: 70px;
+    }
+
+    /* SERVICIOS-SECTION */
+
+    .servicios-main-container {
+        height: 1500px;
+        padding: 0px;
+    }
+
+    .square-pattern-imagen1 {
+        display: none;
+    }
+
+    .square-pattern-imagen2 {
+        display: none;
+    }
+
+    .servicios-container {
+        width: 90%;
+        align-items: center;
+    }
+
+    .h1-text-servicios {
+        text-align: center;
+        font-size: 3rem;
+        bottom: 20px;
+        position: relative;
+    }
+
+    .p-text-servicios {
+        width: 100%;
+    }
+
+    .grid-container-servicios {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .button-servicios {
+        position: relative;
+        top: 30px;
+    }
+
+
+    /* FORM SECTION */ 
+
+    .form-main-container {
+        height: 800px;
+        background-color: var(--white);
+    }
+
+    .form {
+        padding: 40px 0px;
+        height: 100%;
+        width: 95%;
+    }
+
+    .left-container-form {
+        display: none;
+    }
+
+    .right-container-form {
+        border-radius: 20px;
+        width: 100%;
+        background-color: var(--pink);
+    }
+
+    .right-inner-container-form {
+        height: 100%;
+        width: 90%;
+    }
+
+    .h2-right-container-form {
+        bottom: 30px;
+        color: pink;
+    }
+
+    .h2-right-container-form a {
+        color: var(--black);
+    }
+
+    .input-label-container {
+        bottom: 60px;
+    }
+
+    .input-label-container:not(:first-of-type) {
+        margin-top: -30px;
+    }
+
+    #message {
+        height: 120px;
+        position: relative;
+    }
+
+    #message::placeholder {
+        position: relative;
+        bottom: 30px;
+    }
+
+    .h1-right-container-form, .input-label-container label {
+        color: var(--white);
+    }
+
+    .form-button {
+        background-color: pink;
+        padding: 15px 10px;
+    }
+
+}
+
+
+
+
 @media (min-width: 400px) and (max-width: 539px) {
 
     /* NAV-MOBILE-SECTION */
@@ -939,7 +1202,7 @@ body {
 
 
 
-@media (min-width: 768px) and (max-width: 1100px) {
+@media (min-width: 768px) and (max-width: 900px) {
 
     /* NAV-MOBILE-SECTION */
     .links-container-nav {
@@ -1172,6 +1435,97 @@ body {
         background-color: pink;
         padding: 15px 10px;
     }
+}
+
+
+
+
+@media (min-width: 901px) and (max-width: 1190px) {
+
+    /* NAV-SECTION */
+
+    .links-container-nav {
+        width: 60%;
+    }
+
+    .contact-us-button-nav {
+        font-size: 1.2rem;
+    }
+
+    /* HERO-SECTION */
+
+    .hero-container {
+        height: 900px;
+    }
+
+    .first-text-hero-left {
+        font-size: 4rem;
+    }
+
+    .second-text-hero-left {
+        font-size: 1.8rem;
+    }
+
+
+    /* NOSOTROS-SECTION */
+
+    .nosotros-container {
+        flex-direction: column-reverse;
+        height: 1450px;
+        background-image: url(../images/nosotros/pink-roses.png);
+        background-size: 700px;
+        background-repeat: no-repeat;
+        background-position-x: 550px;
+        background-position-y: -100px;
+    }
+
+    .right-nosotros-container {
+        width: 100%;
+    }
+
+    .left-nosotros-container-img {
+        width: 70%;
+    }
+
+
+    /* SERVICIOS-CONTAINER */
+
+    .servicios-container {
+        width: 85%;
+    }
+
+    .square-pattern-imagen1 {
+        height: 120px;
+        width: 120px;
+        left: 10px;
+        top: 20px;
+    }
+
+    .square-pattern-imagen2 {
+        height: 120px;
+        width: 120px;
+        bottom: 20px;
+        right: 10px;
+    }
+
+    /* FORM-SECTION */
+
+    .form {
+        width: 95%;
+    }
+
+    .right-container-form {
+        width: 50%;
+    }
+
+    .right-inner-container-form {
+        width: 90%;
+    }
+
+    .left-container-form {
+        width: 45%;
+    }
+
 }
     
 
