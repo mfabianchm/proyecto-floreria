@@ -459,7 +459,7 @@ body {
     }
 
     .menu-bars-mobile {
-        height: 50px;
+        height: 40px;
         display: inline-block;
         cursor: pointer;
         position: absolute;
@@ -467,7 +467,7 @@ body {
     }
 
     .exit-icon-mobile  {
-        height: 50px;
+        height: 40px;
         display: inline-block;
         cursor: pointer;
         position: absolute;
@@ -492,7 +492,7 @@ body {
         background-size: 400px;
         background-repeat: no-repeat;
         background-position-x: -100px;
-        height: 1100px;
+        height: 1200px;
     }
 
     .left-container-text-hero {
@@ -744,7 +744,7 @@ body {
         background-size: 400px;
         background-repeat: no-repeat;
         background-position-x: -100px;
-        height: 1100px;
+        height: 1200px;
     }
 
     .left-container-text-hero {
@@ -934,6 +934,244 @@ body {
     }
 
    
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1100px) {
+
+    /* NAV-MOBILE-SECTION */
+    .links-container-nav {
+        display: none;
+    }
+
+    .contact-us-button-nav {
+        display: none;
+    }
+
+    .menu-bars-mobile {
+        height: 50px;
+        display: inline-block;
+        cursor: pointer;
+        position: absolute;
+        right: 30px;
+    }
+
+    .exit-icon-mobile  {
+        height: 50px;
+        display: inline-block;
+        cursor: pointer;
+        position: absolute;
+        right: 30px;
+        display: none;
+    }
+
+    .nav-container {
+        position: relative;
+        justify-content: space-between;
+        width: 100%;  
+    }
+
+
+    /* HERO-SECTION */
+
+    .hero-container {
+        flex-direction: column;
+        padding: 0px 60px;
+        position: relative;
+        background-image: url(../images/hero/yellow-flower-back-hero.png);
+        background-size: 400px;
+        background-repeat: no-repeat;
+        background-position-x: -100px;
+        height: 1200px;
+    }
+
+    .left-container-text-hero {
+        width: 100%;
+    }
+
+    .first-text-hero-left {
+        line-height: 70px;
+        font-size: 4rem;
+        margin-top: 0px;
+    }
+
+    .right-container-image-hero {
+        align-self: center;
+        position: relative;
+        top: 100px;
+        width: 100%;
+    }
+
+    .button-comenzar {
+        position: relative;
+        top: 15px;
+    }
+
+    .links-container-mobile-appear {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        width: 70%;
+        background-color: var(--pink);
+        right: 0;
+        transition: display 0.5s ease;
+    }
+
+    .hide {
+        display: 'none';
+    }
+
+    .opacity-click {
+        opacity: 0.5;
+    }
+
+    .link-nav-itself-mobile {
+        display: inline-block;
+        width: 100%;
+        color: var(--white);
+        text-decoration: none;
+        border-bottom: 3px solid var(--white);
+        font-size: 2rem;
+        text-align: center;
+        margin: 20px;
+        padding-bottom: 20px;
+    }
+
+    .link-nav-itself-mobile:first-child {
+        padding-top: 20px;
+    }
+
+    .button-comenzar {
+        background-color: var(--pink);
+    }
+
+
+    /* NOSOTROS-SECTION */
+
+    .nosotros-container {
+        flex-direction: column-reverse;
+        height: 1450px;
+        background-image: url(../images/nosotros/pink-roses.png);
+        background-size: 700px;
+        background-repeat: no-repeat;
+        background-position-x: 150px;
+        background-position-y: -100px;
+    }
+
+    .right-nosotros-container {
+        width: 100%;
+    }
+
+    .left-nosotros-container-img {
+        width: 100%;
+    }
+
+    /* SERVICIOS-SECTION */
+
+    .servicios-main-container {
+        height: 1300px;
+    }
+
+    .square-pattern-imagen1 {
+        display: none;
+    }
+
+    .square-pattern-imagen2 {
+        display: none;
+    }
+
+    .servicios-container {
+        width: 80%;
+        align-items: center;
+    }
+
+    .h1-text-servicios {
+        text-align: center;
+    }
+
+    .p-text-servicios {
+        width: 100%;
+    }
+
+    .grid-container-servicios {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .button-servicios {
+        position: relative;
+        top: 30px;
+    }
+
+
+    /* FORM SECTION */ 
+
+    .form-main-container {
+        height: 800px;
+        background-color: var(--white);
+    }
+
+    .form {
+        padding: 40px 0px;
+        height: 100%;
+        width: 90%;
+    }
+
+    .left-container-form {
+        display: none;
+    }
+
+    .right-container-form {
+        border-radius: 20px;
+        width: 100%;
+        background-color: var(--pink);
+    }
+
+    .right-inner-container-form {
+        height: 100%;
+        width: 90%;
+    }
+
+    .h2-right-container-form {
+        bottom: 30px;
+        color: pink;
+    }
+
+    .h2-right-container-form a {
+        color: var(--black);
+    }
+
+    .input-label-container {
+        bottom: 60px;
+    }
+
+    .input-label-container:not(:first-of-type) {
+        margin-top: -30px;
+    }
+
+    #message {
+        height: 120px;
+        position: relative;
+    }
+
+    #message::placeholder {
+        position: relative;
+        bottom: 30px;
+    }
+
+    .h1-right-container-form, .input-label-container label {
+        color: var(--white);
+    }
+
+    .form-button {
+        background-color: pink;
+        padding: 15px 10px;
+    }
 }
     
 
