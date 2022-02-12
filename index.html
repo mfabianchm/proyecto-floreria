@@ -145,7 +145,7 @@
             <div class="info-container">
               <h1 class="info-name" id="info-name-img">E-mail</h1>
               <h2 class="info-description">Nuestro equipo esta aquí para ayudarte.</h2>
-              <p class="info-itself">negocio@hotmail.com</p>
+              <p class="info-itself"><a class="email-info-itself" href = "mailto: abc@example.com">negocio@hotmail.com</a></p>
             </div>
             <div class="info-container">
               <h1 class="info-name" id="info-location-img">Ubicación</h1>
@@ -159,24 +159,31 @@
             </div>
           </div>
           <div class="social-media-container">
-            <img class="img-social-media" src="" alt="">
-            <img class="img-social-media" src="" alt="">
-            <img class="img-social-media" src="" alt="">
+            <a href="#"><img class="img-social-media" src="assets/images/form/facebook.png" alt=""></a>
+            <a href="#"><img class="img-social-media" src="assets/images/form/instagram.png" alt=""></a>
           </div>
         </div>
         <div class="right-container-form">
           <div class="right-inner-container-form">
             <h1 class="h1-right-container-form">Nos encantaría colaborar contigo.</h1>
-            <h2 class="h2-right-container-form">Puedes contactarnos cuando quieras vía negocio@hotmail.com</h2>
-            <label for="name">Nombre</label>
-            <input type="text" id="name" name="name">
-            <label for="e-mail">Email</label>
-            <input type="email" id="e-mail" name="e-mail">
-            <label for="phone">Número Telefónico</label>
-            <input type="number" id="phone" name="phone">
-            <label for="message">¿Cómo podemos ayudarte?</label>
-            <input type="text" id="message" name="message">
-            <input type="submit">
+            <h2 class="h2-right-container-form">Puedes contactarnos cuando quieras vía <a href = "mailto: abc@example.com">negocio@hotmail.com</a></h2>
+            <div class="input-label-container">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="name" placeholder="Escribe tu nombre">
+            </div>
+            <div class="input-label-container">
+              <label for="e-mail">Email</label>
+              <input type="email" id="e-mail" name="e-mail" placeholder="you@company.com">
+            </div>
+            <div class="input-label-container">
+              <label for="phone">Número Telefónico</label>
+              <input type="tel" id="phone" name="phone" placeholder="+52 0000-0000">
+            </div>
+            <div class="input-label-container">
+              <label for="message">¿Cómo podemos ayudarte?</label>
+              <input type="text" id="message" name="message" placeholder="Cuentanos en que podemos ayudarte">
+            </div>
+            <input class="form-button" type="submit">
         </div>
 
         </div>
