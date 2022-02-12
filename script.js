@@ -24,3 +24,11 @@ exitIconMobile.addEventListener('click', e => {
 
 
 
+window.addEventListener('resize', e => {
+    const width  = window.innerWidth
+    if (width > 900) {
+        menuBarsIcon.style.display = 'none'
+    } else {
+        menuBarsIcon.style.display = 'inline-block'
+    }
+})
