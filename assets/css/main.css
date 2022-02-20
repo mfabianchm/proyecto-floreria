@@ -131,6 +131,7 @@ body {
 .h1-text-nosotros-section {
     text-align: center;
     margin-bottom: 70px;
+    color: var(--pink);
 }
 
 .description-nosotros-container {
@@ -716,10 +717,48 @@ body {
 
     .nosotros-section-main-container {
         padding: 0px 20px;
-        height: 2000px;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
+
+    .h1-text-nosotros-section {
+        margin-bottom: 70px;
+        color: var(--pink);
+    }
+
     .description-nosotros-container {
         flex-direction: column-reverse;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .left-container-description-nosotros, .left-container-description-nosotros-second {
+        width: 100%;
+    }
+
+    .left-container-description-nosotros {
+        justify-content: start;
+    }
+
+
+    .left-container-description-nosotros-second {
+        bottom: 40px;
+    }
+
+    .image-description-nosotros, .image-description-nosotros-3 {
+        width: 55%;
+    }
+
+    .image-description-nosotros-3 {
+        position: absolute;
+        right: 0px;
+        top: 50px;
+    }
+
+    .image-description-nosotros-2 {
+        display: none;
     }
 
     .rigth-container-description-nosotros {
@@ -727,13 +766,39 @@ body {
     }
 
     .description-nosotros-container + .next {
-        flex-direction: column;
-        background: #E4007C;
+        flex-direction: column-reverse;
+        height: 45%;
+        top: 10px;
     }
 
-    .h1-text-nosotros-section {
-        margin-bottom: 0px;
+    .image-description-nosotros-4 {
+        width: 55%;
+        left: auto;
+        right: 80px;
+        top: 50px;
     }
+
+    .image-description-nosotros-5 {
+        width: 50%;
+        left: auto;
+        right: 0px;
+        bottom: 0px;
+        top: auto;
+    }
+
+    .image-description-nosotros-6 {
+        width: 50%;
+        right: auto;
+        bottom: 95px;
+        top: auto;
+        left: -10px;
+    }
+
+
+    .image-description-nosotros-7 {
+        display: none;
+    }
+
 
 
     /* NOSOTROS-SECTION */
@@ -1016,6 +1081,94 @@ body {
     }
 
 
+   /* NOSOTROS-MAIN-SECTION */
+
+    .nosotros-section-main-container {
+        padding: 0px 20px;
+        height: 1700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .h1-text-nosotros-section {
+        font-size: 2rem;
+        margin-bottom: 70px;
+        color: var(--pink);
+    }
+
+    .description-nosotros-container {
+        flex-direction: column-reverse;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .left-container-description-nosotros, .left-container-description-nosotros-second {
+        width: 100%;
+    }
+
+    .left-container-description-nosotros {
+        justify-content: start;
+    }
+
+
+    .left-container-description-nosotros-second {
+        bottom: 40px;
+    }
+
+    .image-description-nosotros, .image-description-nosotros-3 {
+        width: 55%;
+    }
+
+    .image-description-nosotros-3 {
+        position: absolute;
+        right: 0px;
+        top: 50px;
+    }
+
+    .image-description-nosotros-2 {
+        display: none;
+    }
+
+    .rigth-container-description-nosotros {
+        width: 100%;
+    }
+
+    .description-nosotros-container + .next {
+        flex-direction: column-reverse;
+        height: 45%;
+        top: 10px;
+    }
+
+    .image-description-nosotros-4 {
+        width: 55%;
+        left: auto;
+        right: 80px;
+        top: 80px;
+    }
+
+    .image-description-nosotros-5 {
+        width: 50%;
+        left: auto;
+        right: 0px;
+        bottom: 0px;
+        top: auto;
+    }
+
+    .image-description-nosotros-6 {
+        width: 50%;
+        right: auto;
+        bottom: 135px;
+        top: auto;
+        left: -10px;
+    }
+
+
+    .image-description-nosotros-7 {
+        display: none;
+    }
+
+
     /* NOSOTROS-SECTION */
 
     .nosotros-container {
@@ -1291,6 +1444,97 @@ body {
     }
 
 
+    /* NOSOTROS-MAIN-SECTION */
+
+    .nosotros-section-main-container {
+        padding: 0px 30px;
+        height: 2100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .h1-text-nosotros-section {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: var(--pink);
+    }
+
+    .description-nosotros-container {
+        flex-direction: column-reverse;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .left-container-description-nosotros, .left-container-description-nosotros-second {
+        width: 100%;
+    }
+
+    .left-container-description-nosotros {
+        justify-content: start;
+    }
+
+
+    .left-container-description-nosotros-second {
+        bottom: 40px;
+    }
+
+    .image-description-nosotros, .image-description-nosotros-3 {
+        width: 55%;
+    }
+
+    .image-description-nosotros-3 {
+        position: absolute;
+        right: 0px;
+        top: 50px;
+    }
+
+    .image-description-nosotros-2 {
+        display: none;
+    }
+
+    .rigth-container-description-nosotros {
+        width: 100%;
+    }
+
+    .description-nosotros-container + .next {
+        flex-direction: column-reverse;
+        height: 40%;
+        top: 10px;
+    }
+
+    .image-description-nosotros-4 {
+        width: 50%;
+        left: 30px;
+        right: auto;
+        top: 80px;
+    }
+
+    .image-description-nosotros-5 {
+        width: 40%;
+        left: auto;
+        right: 50px;
+        bottom: 90px;
+        top: auto;
+        z-index: 2;
+    }
+
+    .image-description-nosotros-6 {
+        width: 45%;
+        right: auto;
+        bottom: 165px;
+        top: auto;
+        left: -10px;
+    }
+
+
+    .image-description-nosotros-7 {
+        top: 110px;
+        width: 35%;
+        z-index: 1;
+    }
+
+
     /* NOSOTROS-SECTION */
 
     .nosotros-container {
@@ -1415,6 +1659,28 @@ body {
     }
 
    
+}
+
+
+@media (min-width: 666px) and (max-width: 767px) {
+     
+    .image-description-nosotros-5 {
+        width: 40%;
+        left: auto;
+        right: 50px;
+        bottom: 40px;
+        top: auto;
+        z-index: 2;
+    }
+
+    .image-description-nosotros-6 {
+        width: 45%;
+        right: auto;
+        bottom: 135px;
+        top: auto;
+        left: -10px;
+    }
+
 }
 
 
@@ -1552,6 +1818,35 @@ body {
     .button-comenzar {
         background-color: var(--pink);
     }
+
+
+    /* NOSOTROS-MAIN-SECTION */ 
+
+    .nosotros-section-main-container {
+        padding: 10px 30px;
+    }
+
+    .h1-text-nosotros-section {
+        font-size: 2.5rem;
+    }
+
+    .left-container-description-nosotros {
+        justify-content: start;
+    }
+
+    .image-description-nosotros, .image-description-nosotros-3 {
+        width: 55%;
+    }
+
+    .image-description-nosotros-2 {
+        display: none;
+    }
+
+    .image-description-nosotros-3 {
+        top: 50px;
+    }
+
+
 
 
     /* NOSOTROS-SECTION */
