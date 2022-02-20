@@ -3,6 +3,7 @@
     --white: #ffffff;
     --black: #212529;
     --whiteless: #f8f8f8;
+    --gray-text: #8b8b8b;
   }
 
 
@@ -28,7 +29,7 @@ body {
 }
 .logo-company {
     height: 100px;
-    width: 100px;
+    width: 300px;
 }
 
 .menu-bars-mobile {
@@ -64,33 +65,46 @@ body {
 
 .hero-container {
     display: flex;
-    padding: 0px 80px;
+    padding: 50px 80px;
     height: 800px;
 }
 
 .left-container-text-hero {
-    width: 60%;
+    width: 50%;
 }
 
 .first-text-hero-left {
-    font-size: 5em;
+    font-size: 4.5em;
     color: var(--pink);
     padding: 20px 0px;
 }
 
-.second-text-hero-left {
-    position: relative;
-    bottom: 20px;
-    color: var(--black);
-    padding: 20px 0px;
-}
 
 .right-container-image-hero {
-    width: 70%;
+    width: 50%;
+    position: relative;
 }
 
 .image-hero {
-    width: 100%;
+    width: 50%;
+}
+
+.image-hero-1 {
+    position: absolute;
+    bottom: 200px;
+    right: 230px;
+}
+
+.image-hero-2 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.image-hero-3 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
 }
 
 .button-comenzar {
@@ -106,6 +120,112 @@ body {
 
 .links-container-mobile-before {
     display: none;
+}
+
+/* NOSOTROS-MAIN-CONTAINER */
+
+.nosotros-section-main-container {
+    padding: 10px 80px;
+}
+
+.h1-text-nosotros-section {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.description-nosotros-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 60px auto;
+    height: 400px;
+}
+
+.description-nosotros-container + .next {
+    flex-direction: row-reverse;
+}
+
+.h2-text-description-nosotros {
+    margin: 30px auto;
+}
+
+.p-description-itself-nosotros {
+    color: var(--gray-text);
+}
+
+.left-container-description-nosotros {
+    position: relative;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-container-description-nosotros-second {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+
+
+.rigth-container-description-nosotros {
+    width: 40%;
+}
+
+
+
+.image-description-nosotros, .image-description-nosotros-2, .image-description-nosotros-3 {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.image-description-nosotros-4, .image-description-nosotros-5, .image-description-nosotros-6, .image-description-nosotros-7 {
+    border-radius: 10px;
+}
+
+.image-description-nosotros-2 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.image-description-nosotros-3 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.image-description-nosotros-4 {
+    position: absolute;
+    bottom: 35px;
+    left: 0px;
+    width: 200px;
+    z-index: 2;
+}
+
+.image-description-nosotros-5 {
+    position: absolute;
+    left: 150px;
+    top: 0px;
+    width: 250px;
+    z-index: 1;
+}
+
+.image-description-nosotros-6 {
+    position: absolute;
+    left: 350px;
+    bottom: 0px;
+    width: 40%;
+    z-index: 2;
+}
+
+.image-description-nosotros-7 {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    width: 35%;
+    z-index: 1;
 }
 
 /* NOSOTROS-SECTION */
@@ -483,18 +603,23 @@ body {
         width: 100%;  
     }
 
+    .logo-company {
+        width: 60%;
+        height: 80px;
+    }
+
 
     /* HERO-SECTION */
 
     .hero-container {
         flex-direction: column;
-        padding: 0px 30px;
+        padding: 0px 20px;
         position: relative;
         background-image: url(../images/hero/yellow-flower-back-hero.png);
         background-size: 300px;
         background-repeat: no-repeat;
         background-position-x: -100px;
-        height: 1200px;
+        height: 850px;
     }
 
     .left-container-text-hero {
@@ -502,8 +627,8 @@ body {
     }
 
     .first-text-hero-left {
-        line-height: 60px;
-        font-size: 3rem;
+        line-height: 45px;
+        font-size: 2.3rem;
         margin-top: 0px;
     }
 
@@ -512,6 +637,8 @@ body {
     }
 
     .right-container-image-hero {
+        display: flex;
+        justify-content: center;
         align-self: center;
         position: relative;
         top: 100px;
@@ -521,6 +648,7 @@ body {
     .button-comenzar {
         position: relative;
         top: 15px;
+        padding: 15px 25px;
     }
 
     .links-container-mobile-appear {
@@ -561,6 +689,50 @@ body {
 
     .button-comenzar {
         background-color: var(--pink);
+    }
+
+    .image-hero {
+        width: 60%;
+    }
+
+    .image-hero-1 {
+        display: none;
+    }
+
+    .image-hero-2 {
+        left: 20px;
+    }
+
+    .image-hero-3 {
+        left: -30px;
+    }
+
+    .image-hero-2, .image-hero-3 {
+        position: relative;
+    }
+
+
+    /* NOSOTROS-MAIN-SECTION */
+
+    .nosotros-section-main-container {
+        padding: 0px 20px;
+        height: 2000px;
+    }
+    .description-nosotros-container {
+        flex-direction: column-reverse;
+    }
+
+    .rigth-container-description-nosotros {
+        width: 100%;
+    }
+
+    .description-nosotros-container + .next {
+        flex-direction: column;
+        background: #E4007C;
+    }
+
+    .h1-text-nosotros-section {
+        margin-bottom: 0px;
     }
 
 
@@ -749,13 +921,13 @@ body {
 
     .hero-container {
         flex-direction: column;
-        padding: 0px 60px;
+        padding: 0px 30px;
         position: relative;
         background-image: url(../images/hero/yellow-flower-back-hero.png);
         background-size: 400px;
         background-repeat: no-repeat;
         background-position-x: -100px;
-        height: 1200px;
+        height: 1000px;
     }
 
     .left-container-text-hero {
@@ -763,16 +935,39 @@ body {
     }
 
     .first-text-hero-left {
-        line-height: 60px;
-        font-size: 3.5rem;
+        line-height: 55px;
+        font-size: 2.8rem;
         margin-top: 0px;
     }
 
     .right-container-image-hero {
+        display: flex;
+        justify-content: center;
         align-self: center;
         position: relative;
-        top: 100px;
+        top: 180px;
         width: 100%;
+    }
+
+    .image-hero {
+        width: 70%;
+    }
+
+    .image-hero-2, .image-hero-3 {
+        position: relative;
+    }
+
+    .image-hero-1 {
+        bottom: 60px;
+        left: 50px;
+    }
+
+    .image-hero-2 {
+        left: 20px;
+    }
+
+    .image-hero-3 {
+        left: -50px;
     }
 
     .button-comenzar {
@@ -1001,13 +1196,13 @@ body {
 
     .hero-container {
         flex-direction: column;
-        padding: 0px 60px;
+        padding: 0px 50px;
         position: relative;
         background-image: url(../images/hero/yellow-flower-back-hero.png);
         background-size: 400px;
         background-repeat: no-repeat;
         background-position-x: -100px;
-        height: 1200px;
+        height: 1000px;
     }
 
     .left-container-text-hero {
@@ -1015,16 +1210,39 @@ body {
     }
 
     .first-text-hero-left {
-        line-height: 70px;
-        font-size: 4rem;
+        line-height: 60px;
+        font-size: 3.3rem;
         margin-top: 0px;
     }
 
     .right-container-image-hero {
+        display: flex;
+        justify-content: center;
         align-self: center;
         position: relative;
-        top: 100px;
+        top: 180px;
         width: 100%;
+    }
+
+    .image-hero {
+        width: 70%;
+    }
+
+    .image-hero-2, .image-hero-3 {
+        position: relative;
+    }
+
+    .image-hero-1 {
+        bottom: 60px;
+        left: 50px;
+    }
+
+    .image-hero-2 {
+        left: 20px;
+    }
+
+    .image-hero-3 {
+        left: -70px;
     }
 
     .button-comenzar {
@@ -1247,7 +1465,7 @@ body {
         background-size: 400px;
         background-repeat: no-repeat;
         background-position-x: -100px;
-        height: 1200px;
+        height: 1300px;
     }
 
     .left-container-text-hero {
@@ -1261,10 +1479,33 @@ body {
     }
 
     .right-container-image-hero {
+        display: flex;
+        justify-content: center;
         align-self: center;
         position: relative;
-        top: 100px;
+        top: 180px;
         width: 100%;
+    }
+
+    .image-hero {
+        width: 70%;
+    }
+
+    .image-hero-2, .image-hero-3 {
+        position: relative;
+    }
+
+    .image-hero-1 {
+        bottom: 60px;
+        left: 50px;
+    }
+
+    .image-hero-2 {
+        left: 20px;
+    }
+
+    .image-hero-3 {
+        left: -90px;
     }
 
     .button-comenzar {
@@ -1445,25 +1686,56 @@ body {
     /* NAV-SECTION */
 
     .links-container-nav {
-        width: 60%;
+        width: 50%;
+        font-size: 1.2rem;
+    }
+
+    .logo-company {
+        width: 250px;
     }
 
     .contact-us-button-nav {
-        font-size: 1.2rem;
+        font-size: 1rem;
+    }
+
+    .contact-us-button-nav {
+        margin-right: 20px;
     }
 
     /* HERO-SECTION */
 
     .hero-container {
-        height: 900px;
+        height: 850px;
+        padding: 40px;
     }
 
     .first-text-hero-left {
-        font-size: 4rem;
+        font-size: 3.5rem;
+        z-index: 2;
     }
 
-    .second-text-hero-left {
-        font-size: 1.8rem;
+    .image-hero {
+        width: 80%;
+        position: relative;
+    }
+
+    .image-hero-1 {
+        display: none;
+    }
+
+    .image-hero-2 {
+        right: 80px;
+        z-index: -1;
+    }
+
+    .image-hero-3 {
+        position: absolute;
+        top: 200px;
+        left: 100px;
+    }
+
+    .button-comenzar {
+        background: var(--pink);
     }
 
 
@@ -1486,6 +1758,8 @@ body {
     .left-nosotros-container-img {
         width: 70%;
     }
+
+    
 
 
     /* SERVICIOS-CONTAINER */
@@ -1524,6 +1798,51 @@ body {
 
     .left-container-form {
         width: 45%;
+    }
+
+}
+
+
+
+
+@media (min-width: 1191px) and (max-width: 1500px) {
+
+    /* HERO-SECTION */
+
+    .hero-container {
+        height: 850px;
+        padding: 40px;
+    }
+
+    .first-text-hero-left {
+        font-size: 3.5rem;
+        z-index: 2;
+    }
+
+    .image-hero {
+        width: 70%;
+        position: relative;
+    }
+
+    .image-hero-1 {
+        position: absolute;
+        bottom: 0px;
+        left: -200px;
+    }
+
+    .image-hero-2 {
+        right: 80px;
+        z-index: -1;
+    }
+
+    .image-hero-3 {
+        position: absolute;
+        top: 200px;
+        left: 150px;
+    }
+
+    .button-comenzar {
+        background: var(--pink);
     }
 
 }
