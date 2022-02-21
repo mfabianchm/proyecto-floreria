@@ -12,7 +12,7 @@ body {
     margin: 0;
     /* font-family: 'DM Sans', sans-serif;
     font-family: 'Poppins', sans-serif; */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* NAV SECTION */
@@ -659,7 +659,7 @@ body {
         align-items: center;
         flex-direction: column;
         height: 100%;
-        width: 70%;
+        width: 80%;
         background-color: var(--pink);
         right: 0;
         transition: display 0.5s ease;
@@ -679,9 +679,9 @@ body {
         color: var(--white);
         text-decoration: none;
         border-bottom: 3px solid var(--white);
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
-        margin: 20px;
+        margin: 12px;
         padding-bottom: 20px;
     }
 
@@ -1053,7 +1053,7 @@ body {
         align-items: center;
         flex-direction: column;
         height: 100%;
-        width: 70%;
+        width: 80%;
         background-color: var(--pink);
         right: 0;
         transition: display 0.5s ease;
@@ -1073,9 +1073,9 @@ body {
         color: var(--white);
         text-decoration: none;
         border-bottom: 3px solid var(--white);
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
-        margin: 20px;
+        margin: 12px;
         padding-bottom: 20px;
     }
 
@@ -1426,7 +1426,7 @@ body {
         align-items: center;
         flex-direction: column;
         height: 100%;
-        width: 70%;
+        width: 80%;
         background-color: var(--pink);
         right: 0;
         transition: display 0.5s ease;
@@ -1446,9 +1446,9 @@ body {
         color: var(--white);
         text-decoration: none;
         border-bottom: 3px solid var(--white);
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
-        margin: 20px;
+        margin: 12px;
         padding-bottom: 20px;
     }
 
@@ -1811,7 +1811,7 @@ body {
         align-items: center;
         flex-direction: column;
         height: 100%;
-        width: 70%;
+        width: 80%;
         background-color: var(--pink);
         right: 0;
         transition: display 0.5s ease;
@@ -1831,9 +1831,9 @@ body {
         color: var(--white);
         text-decoration: none;
         border-bottom: 3px solid var(--white);
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
-        margin: 20px;
+        margin: 12px;
         padding-bottom: 20px;
     }
 
