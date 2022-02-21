@@ -255,6 +255,7 @@ body {
 
 .h1-text-nosotros {
     font-size: 2rem;
+    margin-bottom: 40px;
 }
 
 .h2-text-nosotros {
@@ -805,26 +806,32 @@ body {
 
     .nosotros-container {
         flex-direction: column-reverse;
-        height: 1300px;
+        height: 1400px;
         background-image: url(../images/nosotros/pink-roses.png);
         background-size: 500px;
         background-repeat: no-repeat;
-        background-position-x: 110px;
+        background-position-x: 60px;
         background-position-y: -100px;
-        padding: 30px 10px;   
+        padding: 30px 5px;   
     }
 
     .right-nosotros-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .text-nosotros-container {
         width: 100%;
     }
 
     .h1-text-nosotros {
         position: relative;
         bottom: 30px;
+        font-weight: 300;
     }
 
     .h2-text-nosotros {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .left-nosotros-container-img {
@@ -1173,7 +1180,7 @@ body {
 
     .nosotros-container {
         flex-direction: column-reverse;
-        height: 1450px;
+        height: 1400px;
         background-image: url(../images/nosotros/pink-roses.png);
         background-size: 500px;
         background-repeat: no-repeat;
@@ -1184,6 +1191,16 @@ body {
 
     .right-nosotros-container {
         width: 100%;
+        padding: 15px;
+    }
+
+    .h1-text-nosotros {
+        margin-bottom: 40px;
+        font-weight: 300;
+    }
+
+    .h2-text-nosotros {
+        font-size: 2.2rem;
     }
 
     .left-nosotros-container-img {
@@ -1541,10 +1558,19 @@ body {
         flex-direction: column-reverse;
         height: 1450px;
         background-image: url(../images/nosotros/pink-roses.png);
-        background-size: 700px;
+        background-size: 600px;
         background-repeat: no-repeat;
-        background-position-x: 150px;
+        background-position-x: 240px;
         background-position-y: -100px;
+        padding: 0px 50px;
+    }
+
+    .h1-text-nosotros {
+        margin-bottom: 40px;
+    }
+
+    .h2-text-nosotros {
+        font-size: 2.5rem;
     }
 
     .right-nosotros-container {
@@ -1846,6 +1872,25 @@ body {
         top: 50px;
     }
 
+    .image-description-nosotros-4 {
+        left: 70px;
+        bottom: -20px;
+    }
+
+    .image-description-nosotros-5 {
+        width: 60%;
+    }
+
+    .image-description-nosotros-6 {
+        width: 50%;
+        left: -20px;
+        top: 50px;
+    }
+
+    .image-description-nosotros-7 {
+        display: none;
+    }
+
 
 
 
@@ -1853,12 +1898,16 @@ body {
 
     .nosotros-container {
         flex-direction: column-reverse;
-        height: 1450px;
+        height: 1650px;
         background-image: url(../images/nosotros/pink-roses.png);
         background-size: 700px;
         background-repeat: no-repeat;
-        background-position-x: 150px;
+        background-position-x: 350px;
         background-position-y: -100px;
+    }
+
+    .h1-text-nosotros {
+        margin-bottom: 40px;
     }
 
     .right-nosotros-container {
@@ -1997,6 +2046,8 @@ body {
         margin-right: 20px;
     }
 
+
+
     /* HERO-SECTION */
 
     .hero-container {
@@ -2034,16 +2085,75 @@ body {
     }
 
 
+    /* NOSOTROS-MAIN-SECTION */ 
+
+    .nosotros-section-main-container {
+        padding: 10px 30px;
+    }
+
+    .h1-text-nosotros-section {
+        font-size: 2.5rem;
+    }
+
+    .left-container-description-nosotros {
+        justify-content: start;
+    }
+
+    .image-description-nosotros, .image-description-nosotros-3 {
+        width: 55%;
+    }
+
+    .image-description-nosotros-2 {
+        display: none;
+    }
+
+    .image-description-nosotros-3 {
+        top: 50px;
+    }
+
+    .image-description-nosotros-4 {
+        right: 30px;
+        bottom: 40px;
+        width: 40%;
+        left: auto;
+    }
+
+    .image-description-nosotros-5 {
+        width: 40%;
+        right: auto;
+        left: 100px;
+    }
+
+    .image-description-nosotros-6 {
+        width: 30%;
+        right: -20px;
+        top: 90px;
+        left: auto;
+        z-index: -2;
+    }
+
+    .image-description-nosotros-7 {
+        left: 0px;
+        bottom: 0px;
+        top: auto;
+        width: 40%;
+    }
+
+
     /* NOSOTROS-SECTION */
 
     .nosotros-container {
         flex-direction: column-reverse;
-        height: 1450px;
+        height: 1550px;
         background-image: url(../images/nosotros/pink-roses.png);
         background-size: 700px;
         background-repeat: no-repeat;
         background-position-x: 550px;
         background-position-y: -100px;
+    }
+
+    .h1-text-nosotros {
+        margin-bottom: 40px;
     }
 
     .right-nosotros-container {
@@ -2098,6 +2208,38 @@ body {
 }
 
 
+@media (min-width: 901px) and (max-width: 1000px) {
+
+    .image-description-nosotros-4 {
+        right: 0px;
+        bottom: 0px;
+        width: 45%;
+        left: auto;
+    }
+
+    .image-description-nosotros-5 {
+        width: 45%;
+        right: 140px;
+        left: auto;
+    }
+
+    .image-description-nosotros-6 {
+        width: 30%;
+        right: 0px;
+        top: 80px;
+        left: auto;
+        z-index: -2;
+    }
+
+    .image-description-nosotros-7 {
+        left: 0px;
+        bottom: 70px;
+        top: auto;
+        width: 35%;
+    }
+}
+
+
 
 
 @media (min-width: 1191px) and (max-width: 1500px) {
@@ -2140,7 +2282,26 @@ body {
         background: var(--pink);
     }
 
+    /* NOSOTROS-SECTION */
+
+    .h1-text-nosotros {
+        margin-bottom: 40px;
+    }
+
+    .h2-text-nosotros {
+        font-size: 2.5rem;
+    }
+
+    .nosotros-container {
+        background-image: url(../images/nosotros/pink-roses.png);
+        background-size: 700px;
+        background-repeat: no-repeat;
+        background-position-x: -300px;
+        background-position-y: -150px;
+    }
+
 }
+
     
 
 
