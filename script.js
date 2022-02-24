@@ -1,5 +1,8 @@
 
 
+
+
+
 //SCRIPT PARA NAV Y HERO
 
 const menuBarsIcon = document.querySelector('.menu-bars-mobile')
@@ -32,3 +35,50 @@ window.addEventListener('resize', e => {
         menuBarsIcon.style.display = 'inline-block'
     }
 })
+
+
+
+gsap.registerPlugin(ScrollTrigger)
+
+
+
+
+gsap.from(".link-nav-itself", {
+    duration: 1,
+    ease: "power1.out",
+    delay: 2,
+    opacity: 0,
+    stagger: .5
+})
+
+
+gsap.from(".image-hero", {
+    duration: 1,
+    ease: "power1.out",
+    delay: 2,
+    opacity: 0,
+    y: '20px',
+    stagger: .5
+})
+
+
+
+
+
+
+
+gsap.from('.header-container', { 
+    x: '-100%',
+    duration: 1,
+    delay: 1
+})
+
+
+gsap.from(".first-text-hero-left", {
+    y: 200,
+    duration: 1,
+    ease: "power1.out",
+    delay: 1,
+    opacity: 0
+})
+
