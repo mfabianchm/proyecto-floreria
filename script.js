@@ -153,7 +153,7 @@ let tlAlianzas03 = gsap.timeline({
 
 let tlservicios = gsap.timeline({
     scrollTrigger: {
-    trigger: '.grid-element-servicios',
+    trigger: '.p-text-servicios',
     ease: "power1.inOut", 
     duration: 1
     }
