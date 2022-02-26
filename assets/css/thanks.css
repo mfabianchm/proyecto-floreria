@@ -1,0 +1,244 @@
+:root {
+    --pink:  #E4007C;
+    --white: #ffffff;
+    --black: #212529;
+    --whiteless: #f8f8f8;
+    --gray-text: #8b8b8b;
+  }
+
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    /* font-family: 'DM Sans', sans-serif;
+    font-family: 'Poppins', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.thanks-container {
+    height: 1000px;
+    background-color: var(--pink);
+    background-image: url(../images/nosotros/pink-roses.png);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: -100px;
+    display: flex;
+    align-items: center;
+    padding: 0px 80px;
+}
+
+.left-thanks-container-img {
+    width: 50%;
+}
+
+.image-thanks {
+    width: 100%;
+}
+
+.right-thanks-container {
+    width: 50%;
+    padding-left: 30px;
+    color: var(--white);
+}
+
+.h1-text-thanks {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.h2-text-thanks {
+    font-size: 3rem;
+}
+
+.p-text-thanks {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.p-text-thanks a {
+    color: pink;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 300px) and (max-width: 549px) {
+    .thanks-container {
+        flex-direction: column-reverse;
+        height: 1000px;
+        background-image: url(../images/nosotros/pink-roses.png);
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position-x: 100px;
+        background-position-y: -100px;
+        padding: 30px 5px;   
+    }
+
+    .right-thanks-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .text-thanks-container {
+        width: 100%;
+    }
+
+    .h1-text-thanks {
+        position: relative;
+        bottom: 30px;
+        font-weight: 300;
+    }
+
+    .h2-text-thanks {
+        font-size: 2rem;
+    }
+
+    .left-thanks-container-img {
+        width: 100%;
+    }
+
+}
+
+
+
+@media (min-width: 550px) and (max-width: 749px) {
+    .thanks-container {
+        flex-direction: column-reverse;
+        height: 1100px;
+        background-image: url(../images/nosotros/pink-roses.png);
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position-x: 300px;
+        background-position-y: -100px;
+        padding: 30px 20px;   
+    }
+
+    .right-thanks-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .text-thanks-container {
+        width: 100%;
+    }
+
+    .h1-text-thanks {
+        position: relative;
+        bottom: 30px;
+        font-weight: 300;
+    }
+
+    .h2-text-thanks {
+        font-size: 2rem;
+    }
+
+    .left-thanks-container-img {
+        width: 100%;
+    }
+
+}
+
+
+@media (min-width: 750px) and (max-width: 899px) {
+    .thanks-container {
+        flex-direction: column-reverse;
+        height: 1300px;
+        background-image: url(../images/nosotros/pink-roses.png);
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position-x: 450px;
+        background-position-y: -100px;
+        padding: 30px 20px;   
+    }
+
+    .right-thanks-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .text-thanks-container {
+        width: 100%;
+    }
+
+    .h1-text-thanks {
+        position: relative;
+        bottom: 30px;
+        font-weight: 300;
+    }
+
+    .h2-text-thanks {
+        font-size: 2rem;
+    }
+
+    .left-thanks-container-img {
+        width: 100%;
+    }
+
+}
+
+
+@media (min-width: 900px) and (max-width: 1100px) {
+    .thanks-container {
+        flex-direction: column-reverse;
+        height: 1200px;
+        background-image: url(../images/nosotros/pink-roses.png);
+        background-size: 600px;
+        background-repeat: no-repeat;
+        background-position-x: 550px;
+        background-position-y: -100px;
+        padding: 30px 20px;   
+    }
+
+    .right-thanks-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .text-thanks-container {
+        width: 100%;
+    }
+
+    .h1-text-thanks {
+        position: relative;
+        bottom: 30px;
+        font-weight: 300;
+    }
+
+    .h2-text-thanks {
+        font-size: 2rem;
+    }
+
+    .left-thanks-container-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-thanks {
+        width: 80%;
+    }
+
+}
+
+
+
+@media (min-width: 1101px) and (max-width: 1280px) {
+
+
+    .thanks-container {
+        background-position-x: 700px;
+    }
+
+    .h2-text-thanks {
+        font-size: 2.7rem;
+    }
+}
+
