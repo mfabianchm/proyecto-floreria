@@ -865,7 +865,7 @@ body {
     .nosotros-container {
         flex-direction: column-reverse;
         height: 1400px;
-        background-image: url(../images/nosotros/pink-roses.png);
+        background-image: url(../images/nosotros/pink-roses.webp);
         background-size: 500px;
         background-repeat: no-repeat;
         background-position-x: 60px;
@@ -1265,7 +1265,7 @@ body {
     .nosotros-container {
         flex-direction: column-reverse;
         height: 1400px;
-        background-image: url(../images/nosotros/pink-roses.png);
+        background-image: url(../images/nosotros/pink-roses.webp);
         background-size: 500px;
         background-repeat: no-repeat;
         background-position-x: 150px;
@@ -1669,7 +1669,7 @@ body {
     .nosotros-container {
         flex-direction: column-reverse;
         height: 1450px;
-        background-image: url(../images/nosotros/pink-roses.png);
+        background-image: url(../images/nosotros/pink-roses.webp);
         background-size: 600px;
         background-repeat: no-repeat;
         background-position-x: 240px;
@@ -2042,7 +2042,7 @@ body {
     .nosotros-container {
         flex-direction: column-reverse;
         height: 1650px;
-        background-image: url(../images/nosotros/pink-roses.png);
+        background-image: url(../images/nosotros/pink-roses.webp);
         background-size: 700px;
         background-repeat: no-repeat;
         background-position-x: 350px;
@@ -2317,7 +2317,7 @@ body {
     .nosotros-container {
         flex-direction: column-reverse;
         height: 1550px;
-        background-image: url(../images/nosotros/pink-roses.png);
+        background-image: url(../images/nosotros/pink-roses.webp);
         background-size: 700px;
         background-repeat: no-repeat;
         background-position-x: 550px;
@@ -2479,7 +2479,7 @@ body {
     }
 
     .nosotros-container {
-        background-image: url(../images/nosotros/pink-roses.png);
+        background-image: url(../images/nosotros/pink-roses.webp);
         background-size: 700px;
         background-repeat: no-repeat;
         background-position-x: -300px;

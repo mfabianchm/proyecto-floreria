@@ -21,7 +21,7 @@ body {
 .thanks-container {
     height: 1000px;
     background-color: var(--pink);
-    background-image: url(../images/nosotros/pink-roses.png);
+    background-image: url(../images/nosotros/pink-roses.webp);
     background-size: 700px;
     background-repeat: no-repeat;
     background-position-x: right;
@@ -74,7 +74,7 @@ body {
     .thanks-container {
         flex-direction: column-reverse;
         height: 1000px;
-        background-image: url(../images/nosotros/pink-roses.png);
+        background-image: url(../images/nosotros/pink-roses.webp);
         background-size: 500px;
         background-repeat: no-repeat;
         background-position-x: 100px;
@@ -113,7 +113,7 @@ body {
     .thanks-container {
         flex-direction: column-reverse;
         height: 1100px;
-        background-image: url(../images/nosotros/pink-roses.png);
+        background-image: url(../images/nosotros/pink-roses.webp);
         background-size: 500px;
         background-repeat: no-repeat;
         background-position-x: 300px;
@@ -151,7 +151,7 @@ body {
     .thanks-container {
         flex-direction: column-reverse;
         height: 1300px;
-        background-image: url(../images/nosotros/pink-roses.png);
+        background-image: url(../images/nosotros/pink-roses.webp);
         background-size: 500px;
         background-repeat: no-repeat;
         background-position-x: 450px;
@@ -189,7 +189,7 @@ body {
     .thanks-container {
         flex-direction: column-reverse;
         height: 1200px;
-        background-image: url(../images/nosotros/pink-roses.png);
+        background-image: url(../images/nosotros/pink-roses.webp);
         background-size: 600px;
         background-repeat: no-repeat;
         background-position-x: 550px;
