@@ -388,6 +388,10 @@ body {
   background-color: var(--gray-text);
 }
 
+.servicios-to-gallery-link {
+  color: var(--pink);
+}
+
 /* GALLERY-SECTION */
 
 .gallery-main-container {
@@ -691,7 +695,7 @@ body {
 
   .english-icon-mobile {
     display: inline-block;
-    width: 35fpx;
+    width: 35px;
     position: absolute;
     right: 80px;
     bottom: 40px;
